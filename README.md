@@ -1,2 +1,4 @@
 # crypto
-A crypto currency site made with Angularjs, springboot java, SQL, and firebase.
+This is a cryptocurrency exchange market built with AngularJS, SpringBoot java, firebase and MYSQL.
+
+
