@@ -304,28 +304,9 @@ html{
     z-index: 4;
   }
   
-  .header.active {
-    position: fixed;
-    top: -40px;
-    background-color: var(--white);
-    border-block-start: 1px solid var(--cultured);
-    box-shadow: var(--shadow-1);
-    animation: slideIn 0.25s var(--cubic-out) forwards;
-  }
+ 
   
-  @keyframes slideIn {
-  
-    0% {
-      transform: translateY(0);
-      background-color: var(--white);
-    }
-  
-    100% {
-      transform: translateY(25%);
-      background-color: var(--eerie-black-2);
-    }
-  
-  }
+ 
   
   .header > .container {
     display: flex;
