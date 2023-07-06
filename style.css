@@ -304,9 +304,7 @@ html{
     z-index: 4;
   }
   
- 
   
- 
   
   .header > .container {
     display: flex;
@@ -358,12 +356,7 @@ html{
     transition: 0.25s var(--cubic-out);
   }
   
-  .navbar.active {
-    max-height: calc(100vh - 63px);
-    visibility: visible;
-    transition-duration: 0.5s;
-  }
-  
+ 
   .navbar-item:not(:last-child) { border-block-end: 1px solid var(--white_30); }
   
   .navbar-link {
