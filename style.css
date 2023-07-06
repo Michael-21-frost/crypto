@@ -306,7 +306,7 @@ html{
   
   .header.active {
     position: fixed;
-    top: -45px;
+    top: -40px;
     background-color: var(--white);
     border-block-start: 1px solid var(--cultured);
     box-shadow: var(--shadow-1);
@@ -321,7 +321,7 @@ html{
     }
   
     100% {
-      transform: translateY(45%);
+      transform: translateY(25%);
       background-color: var(--eerie-black-2);
     }
   
