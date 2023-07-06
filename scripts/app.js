@@ -8,7 +8,10 @@ const addEventOnElem = function (elem, type, callback) {
     elem.addEventListener(type, callback);
   }
 }
-
+//updates
+function update(){
+  alert("Not currently available");
+}
 
 
 //navigation

@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OTOTECH CRYPT</title>
-  <link rel="icon" type="image/x-icon" href="./images/logo.png">
+  <title>Global EXC</title>
+  <link rel="icon" type="image/x-icon" href="./images/bitcoin2.png">
   <link rel="stylesheet" href="./styles/style.css">
 
   
@@ -22,8 +22,8 @@
     <div class="container">
 
       <a href="#" class="logo">
-        <img src="./images/logo.png" width="50" height="50" alt="MISSING LOGO">
-        OTOTECH
+        <img src="./images/bitcoin1.png" width="40" height="40" alt="MISSING LOGO">
+        Global EXC
       </a>
 
       <nav class="navbar" data-navbar>
@@ -34,21 +34,12 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Buy Crypto</a>
+            <a href="https://global-exc.web.app/login" class="navbar-link" data-nav-link>Invest and trade</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Markets</a>
+            <a href="#market" class="navbar-link" data-nav-link>Market value</a>
           </li>
-
-          <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Sell Crypto</a>
-          </li>
-          <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>BUY THIS TEMPLATE</a>
-          </li>
-
-         
 
         </ul>
       </nav>
@@ -59,7 +50,7 @@
         <span class="line line-3"></span>
       </button>
 
-      <a href="https://global-exc.web.app/login" class="btn btn-outline">Wallet</a>
+      <a href="https://global-exc.web.app/login" class="btn btn-outline">Dashboard</a>
 
     </div>
   </header>
@@ -78,10 +69,10 @@
 
           <div class="hero-content">
 
-            <h1 class="h1 hero-title">Buy & Sell Digital Assets With OTOTECH CRYPT</h1>
+            <h1 class="h1 hero-title">Buy and invest in bitcoin with GLOBAL EXC.</h1>
 
             <p class="hero-text">
-              This is a cryptocurrency exchange market built with AngularJS, SpringBoot java, firebase and MYSQL.
+              buy investment plans and monitor your profit returns with uptime live monitoring and exchange algorithm
             </p>
 
            
@@ -113,35 +104,31 @@
               </li>
 
               <li>
-                <button class="tab-btn ">DeFi</button>
+                <button class="tab-btn " onclick="update()">DeFi</button>
               </li>
 
               <li>
-                <button class="tab-btn">BSC</button>
+                <button class="tab-btn" onclick="update()">BSC</button>
               </li>
 
               <li>
-                <button class="tab-btn">NFT</button>
+                <button class="tab-btn" onclick="update()">NFT</button>
               </li>
 
               <li>
-                <button class="tab-btn">Metaverse</button>
+                <button class="tab-btn" onclick="update()">Metaverse</button>
               </li>
 
               <li>
-                <button class="tab-btn">Polkadot</button>
+                <button class="tab-btn" onclick="update()">Polkadot</button>
               </li>
 
               <li>
-                <button class="tab-btn">Solana</button>
+                <button class="tab-btn" onclick="update()">Solana</button>
               </li>
 
               <li>
-                <button class="tab-btn">Opensea</button>
-              </li>
-
-              <li>
-                <button class="tab-btn">Makersplace</button>
+                <button class="tab-btn" onclick="update()">Opensea</button>
               </li>
 
             </ul>
@@ -159,12 +146,12 @@
                     </a>
                   </div>
 
-                  <data class="card-value" value="46168.95">USD 66,218.95</data>
+                  <data class="card-value" value="46168.95">USD 30,606.10</data>
 
                   <div class="card-analytics">
-                    <data class="current-price" value="36641.20">36,001.20</data>
+                    <data class="current-price" value="36641.20">592,170,000,000</data>
 
-                    <div class="badge red">-0.79%</div>
+                    <div class="badge green">+1.45%</div>
                   </div>
 
                 </div>
@@ -181,12 +168,12 @@
                     </a>
                   </div>
 
-                  <data class="card-value" value="3480.04">USD 3,480.04</data>
+                  <data class="card-value" value="3480.04">USD 1,905.37</data>
 
                   <div class="card-analytics">
-                    <data class="current-price" value="36641.20">36,641.20</data>
+                    <data class="current-price" value="36641.20">233,770,000,000</data>
 
-                    <div class="badge green">+10.55%</div>
+                    <div class="badge red">-1.35%</div>
                   </div>
 
                 </div>
@@ -208,7 +195,7 @@
                   <div class="card-analytics">
                     <data class="current-price" value="36641.20">36,641.20</data>
 
-                    <div class="badge red">-0.01%</div>
+                    <div class="badge green">+0.01%</div>
                   </div>
 
                 </div>
@@ -225,10 +212,10 @@
                     </a>
                   </div>
 
-                  <data class="card-value" value="443.56">USD 443.56</data>
+                  <data class="card-value" value="443.56">USD 239.63</data>
 
                   <div class="card-analytics">
-                    <data class="current-price" value="36641.20">36,641.20</data>
+                    <data class="current-price" value="36641.20">37,290,000,000</data>
 
                     <div class="badge red">-1.24%</div>
                   </div>
@@ -251,7 +238,7 @@
         - #MARKET
       -->
 
-      <section class="section market" aria-label="market update" data-section>
+      <section class="section market" aria-label="market update" data-section id="market">
         <div class="container">
 
           <div class="title-wrapper">
@@ -265,7 +252,7 @@
             <ul class="tab-nav">
 
               <li>
-                <button class="tab-btn active">View All</button>
+                <button class="tab-btn active">Available</button>
               </li>
 
               <li>
@@ -343,19 +330,16 @@
                     </div>
                   </td>
 
-                  <td class="table-data last-price">$56,623.54</td>
+                  <td class="table-data last-price">$30,606.10</td>
 
                   <td class="table-data last-update green">+1.45%</td>
 
-                  <td class="table-data market-cap">$880,423,640,582</td>
+                  <td class="table-data market-cap">$592,170,000,000</td>
 
                   <td class="table-data">
                     <img src="./images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
                   </td>
 
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
-                  </td>
 
                 </tr>
 
@@ -380,18 +364,14 @@
                     </div>
                   </td>
 
-                  <td class="table-data last-price">$56,623.54</td>
+                  <td class="table-data last-price">$1,905.37</td>
 
-                  <td class="table-data last-update red">-5.12%</td>
+                  <td class="table-data last-update red">-1.35%</td>
 
-                  <td class="table-data market-cap">$880,423,640,582</td>
+                  <td class="table-data market-cap">$233,770,000,000</td>
 
                   <td class="table-data">
                     <img src="./images/chart-2.svg" width="100" height="40" alt="loss chart" class="chart">
-                  </td>
-
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
                   </td>
 
                 </tr>
@@ -417,19 +397,16 @@
                     </div>
                   </td>
 
-                  <td class="table-data last-price">$56,623.54</td>
+                  <td class="table-data last-price">$1.01</td>
 
-                  <td class="table-data last-update green">+1.45%</td>
+                  <td class="table-data last-update green">+0.01%</td>
 
-                  <td class="table-data market-cap">$880,423,640,582</td>
+                  <td class="table-data market-cap">$83,360,000,000</td>
 
                   <td class="table-data">
                     <img src="./images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
                   </td>
 
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
-                  </td>
 
                 </tr>
 
@@ -454,19 +431,16 @@
                     </div>
                   </td>
 
-                  <td class="table-data last-price">$56,623.54</td>
+                  <td class="table-data last-price">$239.63</td>
 
-                  <td class="table-data last-update red">-3.75%%</td>
+                  <td class="table-data last-update red">-1.39%</td>
 
-                  <td class="table-data market-cap">$880,423,640,582</td>
+                  <td class="table-data market-cap">$37,290,000,000</td>
 
                   <td class="table-data">
                     <img src="./images/chart-2.svg" width="100" height="40" alt="loss chart" class="chart">
                   </td>
 
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
-                  </td>
 
                 </tr>
 
@@ -491,19 +465,16 @@
                     </div>
                   </td>
 
-                  <td class="table-data last-price">$56,623.54</td>
+                  <td class="table-data last-price">$22.80</td>
 
-                  <td class="table-data last-update green">+1.45%</td>
+                  <td class="table-data last-update green">+0.02%</td>
 
-                  <td class="table-data market-cap">$880,423,640,582</td>
+                  <td class="table-data market-cap">$250,996</td>
 
                   <td class="table-data">
                     <img src="./images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
                   </td>
 
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
-                  </td>
 
                 </tr>
 
@@ -528,19 +499,16 @@
                     </div>
                   </td>
 
-                  <td class="table-data last-price">$56,623.54</td>
+                  <td class="table-data last-price">$0.067</td>
 
                   <td class="table-data last-update red">-2.22%</td>
 
-                  <td class="table-data market-cap">$880,423,640,582</td>
+                  <td class="table-data market-cap">$9,350,000,000</td>
 
                   <td class="table-data">
                     <img src="./images/chart-2.svg" width="100" height="40" alt="loss chart" class="chart">
                   </td>
 
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
-                  </td>
 
                 </tr>
 
@@ -565,19 +533,16 @@
                     </div>
                   </td>
 
-                  <td class="table-data last-price">$56,623.54</td>
+                  <td class="table-data last-price">$0.29</td>
 
                   <td class="table-data last-update green">+0.8%</td>
 
-                  <td class="table-data market-cap">$880,423,640,582</td>
+                  <td class="table-data market-cap">$10,190,000,000</td>
 
                   <td class="table-data">
                     <img src="./images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
                   </td>
 
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
-                  </td>
 
                 </tr>
 
@@ -602,18 +567,14 @@
                     </div>
                   </td>
 
-                  <td class="table-data last-price">$56,623.54</td>
+                  <td class="table-data last-price">$12.71</td>
 
                   <td class="table-data last-update green">+1.41%</td>
 
-                  <td class="table-data market-cap">$880,423,640,582</td>
+                  <td class="table-data market-cap">$4,350,000,000</td>
 
                   <td class="table-data">
                     <img src="./images/chart-1.svg" width="100" height="40" alt="profit chart" class="chart">
-                  </td>
-
-                  <td class="table-data">
-                    <button class="btn btn-outline">Trade</button>
                   </td>
 
                 </tr>
@@ -637,28 +598,29 @@
       <section class="section instruction" aria-label="instruction" data-section>
         <div class="container">
 
-          <h2 class="h2 section-title">Get Started</h2>
-
+          <a href="https://global-exc.web.app/register"><h2 class="h2 section-title" style="color:hsl(40, 72%, 23%); text-decoration: underline;">Get Started</h2>
+          </a>
           <p class="section-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eaque ratione assumenda!
+          With Global EXC crypto trading is made easy with realtime profit monitoring and security.
           </p>
 
           <ul class="instruction-list">
 
+      
             <li>
               <div class="instruction-card">
 
                 <figure class="card-banner">
-                  <img src="./images/instruction-1.png" width="96" height="96" loading="lazy" alt="Step 1"
+                  <img src="./images/instruction-2.png" width="96" height="96" loading="lazy" alt="Step 1"
                     class="img">
                 </figure>
 
                 <p class="card-subtitle">Step 1</p>
 
-                <h3 class="h3 card-title">Download</h3>
+                <h3 class="h3 card-title">Create An Account</h3>
 
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iste non sequi?
+                <p class="card-text"> Create a free account and log in to your dashboard.
+                    
                 </p>
 
               </div>
@@ -668,16 +630,16 @@
               <div class="instruction-card">
 
                 <figure class="card-banner">
-                  <img src="./images/instruction-2.png" width="96" height="96" loading="lazy" alt="Step 2"
+                  <img src="./images/instruction-3.png" width="96" height="96" loading="lazy" alt="Step 2"
                     class="img">
                 </figure>
 
                 <p class="card-subtitle">Step 2</p>
 
-                <h3 class="h3 card-title">Connect Wallet</h3>
+                <h3 class="h3 card-title">Start Trading</h3>
 
                 <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iste non sequi?
+                    Buy a crypto plan and invest it.
                 </p>
 
               </div>
@@ -687,35 +649,16 @@
               <div class="instruction-card">
 
                 <figure class="card-banner">
-                  <img src="./images/instruction-3.png" width="96" height="96" loading="lazy" alt="Step 3"
+                  <img src="./images/instruction-4.png" width="96" height="96" loading="lazy" alt="Step 3"
                     class="img">
                 </figure>
 
                 <p class="card-subtitle">Step 3</p>
 
-                <h3 class="h3 card-title">Start Trading</h3>
-
-                <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iste non sequi?
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="instruction-card">
-
-                <figure class="card-banner">
-                  <img src="./images/instruction-4.png" width="96" height="96" loading="lazy" alt="Step 4"
-                    class="img">
-                </figure>
-
-                <p class="card-subtitle">Step 4</p>
-
                 <h3 class="h3 card-title">Earn Money</h3>
 
                 <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iste non sequi?
+                    Enjoy maximum profit returns from your investment.
                 </p>
 
               </div>
@@ -745,7 +688,7 @@
             <h2 class="h2 section-title">Assurance</h2>
 
             <p class="section-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quidem est architecto eveniet aliquam harum consequatur a consectetur provident impedit?
+                Be rest assured that your payments are secured and will be reflected on your dashboard with accurate profit returns based on your purchased plan.
             </p>
 
             <ul class="section-list">
@@ -757,26 +700,10 @@
                   <h3 class="h3 list-title">View real-time cryptocurrency prices</h3>
                 </div>
 
-                <p class="item-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius voluptatum similique necessitatibus ipsam fuga error aperiam? Quos nostrum veniam iure suscipit, et maiores officiis accusantium beatae officia recusandae pariatur quisquam.
-                </p>
+                <p class="item-text"> Crypto such as bitcoin prices are current to your purchased plan and  will be traded with current stake prices and market value.</p>
               </li>
 
-              <li class="section-item">
-                <div class="title-wrapper">
-                  <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
-
-                  <h3 class="h3 list-title">Buy and sell BTC, ETH, XRP, OKB, Etc...</h3>
-                </div>
-
-                <p class="item-text">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod soluta quis facilis aliquam asperiores quae?
-                </p>
-              </li>
-
-            </ul>
-
-            <a href="#" class="btn btn-primary">Explore More</a>
+              
 
           </div>
 
@@ -799,7 +726,7 @@
             <h2 class="h2 section-title">Free Your Money & Invest With Confident</h2>
 
             <p class="section-text">
-              With Cryptor Trade, you can be sure your trading skills are matched
+              With Global EXC Trade, you can be sure your trading skills are matched
             </p>
 
             <ul class="section-list">
@@ -830,17 +757,7 @@
 
             </ul>
 
-            <div class="app-wrapper">
-              <a href="#">
-                <img src="./images/googleplay.png" width="135" height="40" loading="lazy"
-                  alt="get it on google play">
-              </a>
-
-              <a href="#">
-                <img src="./images/appstore.png" width="120" height="40" loading="lazy"
-                  alt="download on the app store">
-              </a>
-            </div>
+           
 
           </div>
 
@@ -868,15 +785,13 @@
         <div class="footer-brand">
 
           <a href="#" class="logo">
-            <img src="./images/logo.png" width="50" height="50" alt="Cryptex logo">
-            OTOTECH
+            <img src="./images/bitcoin1.png" width="50" height="50" alt="Cryptex logo">
+            Global EXC
           </a>
 
-          <h2 class="footer-title">Want to buy this template?</h2>
+          <h2 class="footer-title">Bitcoin Trading is current on!</h2>
 
-          <a href="tel:+2348160816821" class="footer-contact-link">+23408160816821</a>
-
-          <a href="mailto:ototechindustries@gmail.com" class="footer-contact-link">ototechindustries@gmail.com</a>
+          <a href="mailto:globalexctrading@gmail.com" class="footer-contact-link">globalexctrading@gmail.com</a>
 
         
 
@@ -889,7 +804,7 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">Spot</a>
+            <a href="" class="footer-link">Spot</a>
           </li>
 
           <li>
@@ -909,7 +824,7 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">Binance Pay</a>
+            <a href="https://pay.binance.com/en" class="footer-link">Binance Pay</a>
           </li>
 
         </ul>
@@ -921,90 +836,22 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">Buy Crypto</a>
+            <a href="https://global-exc.web.app/register" class="footer-link">Buy Crypto</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Markets</a>
+            <a href="#market" class="footer-link">Markets</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Tranding Fee</a>
+            <a href="#" class="footer-link">Message us</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Affiliate Program</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Referral Program</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">API</a>
-          </li>
-
+        
         </ul>
 
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Support</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Bybit Learn</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Help Center</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">User Feedback</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Submit a request</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">API Documentation</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Trading Rules</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">About Us</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">About Bybit</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Authenticity Check</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Careers</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Business Contacts</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Blog</a>
-          </li>
-
-        </ul>
+  
 
       </div>
     </div>
@@ -1013,7 +860,7 @@
       <div class="container">
 
         <p class="copyright">
-          &copy; 2023  <a href="#" class="copyright-link">OTOTECH Idustries</a>
+          &copy; 2023  <a href="#" class="copyright-link">Global EXC Trading</a>
         </p>
 
         <ul class="social-list">
