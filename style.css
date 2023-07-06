@@ -295,7 +295,7 @@ html{
   \*-----------------------------------*/
   
   .header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -311,6 +311,7 @@ html{
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    white-space: nowrap;
   }
   
   .logo {
@@ -356,7 +357,12 @@ html{
     transition: 0.25s var(--cubic-out);
   }
   
- 
+  .navbar.active {
+    max-height: calc(100vh - 63px);
+    visibility: visible;
+    transition-duration: 0.5s;
+  }
+  
   .navbar-item:not(:last-child) { border-block-end: 1px solid var(--white_30); }
   
   .navbar-link {
