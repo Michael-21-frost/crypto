@@ -354,6 +354,7 @@ html{
     overflow: hidden;
     visibility: hidden;
     opacity: 0.8;
+    white-space: nowrap;
     transition: 0.25s var(--cubic-out);
   }
   
