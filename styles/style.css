@@ -295,7 +295,7 @@ html{
   \*-----------------------------------*/
   
   .header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -304,34 +304,14 @@ html{
     z-index: 4;
   }
   
-  .header.active {
-    position: fixed;
-    top: -80px;
-    background-color: var(--white);
-    border-block-start: 1px solid var(--cultured);
-    box-shadow: var(--shadow-1);
-    animation: slideIn 0.25s var(--cubic-out) forwards;
-  }
   
-  @keyframes slideIn {
-  
-    0% {
-      transform: translateY(0);
-      background-color: var(--white);
-    }
-  
-    100% {
-      transform: translateY(100%);
-      background-color: var(--eerie-black-2);
-    }
-  
-  }
   
   .header > .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    white-space: nowrap;
   }
   
   .logo {
@@ -374,6 +354,7 @@ html{
     overflow: hidden;
     visibility: hidden;
     opacity: 0.8;
+    white-space: nowrap;
     transition: 0.25s var(--cubic-out);
   }
   
@@ -860,6 +841,7 @@ html{
       width: 100%;
       margin-inline: auto;
     }
+  
   
   
   
